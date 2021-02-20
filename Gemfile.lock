@@ -211,6 +211,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.3)
+  rake (~> 13.0)
   sass-rails (>= 6)
   selenium-webdriver
   spring
@@ -222,3 +223,6 @@ DEPENDENCIES
 
 RUBY VERSION
    ruby 3.0.0p0
+
+BUNDLED WITH
+   2.2.11
