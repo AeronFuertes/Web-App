@@ -26,10 +26,10 @@ development:
   adapter: postgresql
   encoding: unicode
   host: localhost
-  database: Test_development
+  database: web_development
   pool: 5
-  username: postgres
-  password: root
+  username: aeron
+  password: admin
   port: 5433
 
   # The specified database role being used to connect to postgres.
@@ -67,10 +67,10 @@ test:
   adapter: postgresql
   encoding: unicode
   host: localhost
-  database: Test_test
+  database: web_test
   pool: 5
-  username: postgres
-  password: root
+  username: aeron
+  password: admin
   port: 5433
 
 # As with config/credentials.yml, you never want to store sensitive information,
@@ -95,6 +95,6 @@ test:
 #
 production:
   <<: *default
-  database: Test_production
-  username: postgres
+  database: web_production
+  username: aeron
   password: <%= ENV['TEST_DATABASE_PASSWORD'] %>
